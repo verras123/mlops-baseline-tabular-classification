@@ -1,0 +1,18 @@
+>>> %Run ml_pipeline.py
+[INFO] Training/evaluating Logistic Regression...
+[INFO] Training/evaluating Random Forest...
+
+========== SUMMARY ==========
+
+Model: logreg
+CV mean: acc=0.7346  prec=0.6850  rec=0.5640  f1=0.6186  roc_auc=0.7955
+TEST: acc=0.7344 prec=0.6844 rec=0.5644 f1=0.6186 roc_auc=0.7965
+
+Model: random_forest
+CV mean: acc=0.7286  prec=0.6863  rec=0.5321  f1=0.5994  roc_auc=0.7852
+TEST: acc=0.7274 prec=0.6838 rec=0.5313 f1=0.5980 roc_auc=0.7858
+
+[INFO] Best model by CV score: logreg
+[INFO] Outputs saved in: C:\Users\Thiago Guedin\Desktop\Projeto_ML\outputs
+[INFO] Done.
+>>> 
